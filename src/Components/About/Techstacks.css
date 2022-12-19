@@ -1,0 +1,51 @@
+.main {
+  margin-top: 4em;
+}
+.techsection {
+  width: 100%;
+  text-align: center;
+  background-color: var(--clr-bg);
+  height: 70vh;
+}
+
+.techsection > div {
+  width: 10%;
+  height: 20vh;
+  box-shadow: var(--shadow);
+  border-radius: 10px;
+  margin: 3%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease 0s;
+}
+.techsection > div:hover {
+  transform: scale(1.08);
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.techsection > div > svg {
+  height: 50%;
+  width: 50%;
+  color: var(--clr-primary);
+}
+.techsection > div > h5 {
+  position: relative;
+  top: 8px;
+}
+
+@media (max-width: 600px) {
+  .techsection {
+    height: 120vh;
+  }
+  .techsection > div {
+    width: 40%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    height: 18vh;
+  }
+}
