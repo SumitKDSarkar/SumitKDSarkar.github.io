@@ -1,16 +1,17 @@
 import React from "react";
 import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
-import avatar from "../img/IMG_12jpg.jpg"
+// import avatar from "../img/IMG_12jpg.jpg"
+import avatar from "../img/Sumit_IMG.jpg"
 
 export const Introduction = () => {
   return (
     <>
-      <section id="#about">
-        <div className="section" data-aos="fade-right">
-          <h2 className="section__title">
+      {/* <section id="#about"> */}
+        {/* <div className="section" data-aos="fade-right"> */}
+          {/* <h2 className="section__title">
             About <span className="different">Me</span>
-          </h2>
+          </h2> */}
           <div className="introduction">
             <div className="introduction_logocontainer">
               <img
@@ -18,7 +19,7 @@ export const Introduction = () => {
                 alt="Images"
               />
             </div>
-            <div className="introduction_datacontainer">
+            {/* <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, I am{" "}
                 <span className="different">Sumit Kumar Dey Sarkar</span> from{" "}
@@ -34,7 +35,9 @@ export const Introduction = () => {
                   <ExitToAppIcon />
                 </span>
                 Riding Bikes{" "}
-              </h4>
+              </h4> */}
+
+
               {/* <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
@@ -47,16 +50,18 @@ export const Introduction = () => {
                 </span>
                 Learning Algorithms{" "}
               </h4> */}
+
+{/*               
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
                 Listening to Music{" "}
-              </h4>
-            </div>
+              </h4> */}
+            {/* </div> */}
           </div>
-        </div>
-      </section>
+        {/* </div> */}
+      {/* </section> */}
     </>
   );
 };

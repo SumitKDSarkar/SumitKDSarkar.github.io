@@ -14,6 +14,12 @@
   --clr-primary: #297810;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+/* #home{
+  border: 1px solid;
+} */
+/* #top{
+  border: 1px solid red;
+} */
 
 .dark {
   --clr-bg: #23283e;

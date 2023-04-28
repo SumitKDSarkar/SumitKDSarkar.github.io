@@ -10,6 +10,8 @@ import DescriptionIcon from "@material-ui/icons/Description";
 import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
+// import cv from "../img/SumitKumarDeySarkar@Resume.pdf";
+import cv from "../img/Sumit_Kumar_Dey_Sarkar_Resume.pdf"
 export const About = () => {
   return (
     <>
@@ -18,10 +20,19 @@ export const About = () => {
           Hi, I am <span className="about__name">Sumit Kumar Dey Sarkar</span>
         </h1>
         <Type />
+        <Introduction />
+        <a
+                href={cv}
+                className="btn_cv"
+                download={"Sumit_Kumar_Dey_Sarkar@Resume.pdf"}
+              >
+                Download CV
+              </a>
+
         <p className="about__desc" data-aos="fade-left">
           A passionate Full Stack Software Developer having an experience of
-          building Web applications with JavaScript / Reactjs / Nodejs / MongoDb
-          and some other cool libraries and frameworks.
+          building Web applications with tech stack like JavaScript / Reactjs / Nodejs / MongoDb
+          and some other cool tech libraries and frameworks.
         </p>
         <div className="about__contact center">
           <a
@@ -89,7 +100,7 @@ export const About = () => {
           </a>
         </div>
       </div>
-      <Introduction />
+      {/* <Introduction /> */}
       <Timeline />
     </>
   );

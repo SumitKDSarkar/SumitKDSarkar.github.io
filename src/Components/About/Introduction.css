@@ -11,13 +11,15 @@
 
 .introduction_logocontainer {
   flex-basis: 50%;
+  margin: auto;
   display: flex;
+  /* border: 1px solid; */
   justify-content: center;
   align-items: center;
 }
 
 .introduction_logocontainer > img {
-  width: 50%;
+  width: 40%;
   height: 100%;
   border-radius: 50px;
 }

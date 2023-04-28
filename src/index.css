@@ -10,7 +10,9 @@
   box-shadow: none;
   box-sizing: border-box;
 }
-
+/* #home{
+  position: fixed;
+} */
 html {
   scroll-behavior: smooth;
 }

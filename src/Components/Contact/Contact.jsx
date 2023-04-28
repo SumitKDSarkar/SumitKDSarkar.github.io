@@ -27,10 +27,11 @@ export const Contact = () => {
             <VscGithub className="github" />
           </a>
           <a
-            href="https://skumarcbr4@gmail.com"
+            href="mailto:skumarcbr4@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
+            {/* <button onClick={() => window.location = 'mailto:yourmail@domain.com'}></button> */}
             <CgMail className="email" />
           </a>
           <a

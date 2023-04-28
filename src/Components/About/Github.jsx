@@ -23,7 +23,17 @@ export const Github = () => {
           theme={colourTheme}
           fontSize={16}
         />
-      </div>
+        
+        <div><img width={320} blockSize={15}
+          blockMargin={5}
+          theme={colourTheme}
+          fontSize={16} src="https://github-readme-stats.vercel.app/api?username=SumitKDSarkar&theme=flag-india&show_icons=true&count_private=true" /></div>
+        <div><img width={320} blockSize={15}
+          blockMargin={5}
+          theme={colourTheme}
+          fontSize={16} src="https://github-readme-streak-stats.herokuapp.com/?user=SumitKDSarkar&theme=indian-flag" /></div>
+        </div>
+      
     </>
   );
 };

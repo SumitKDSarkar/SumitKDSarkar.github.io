@@ -5,8 +5,8 @@ import Brightness2Icon from "@material-ui/icons/Brightness2";
 import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
-import cv from "../img/SumitKumarDeySarkar@Resume.pdf";
-
+// import cv from "../img/SumitKumarDeySarkar@Resume.pdf";
+import cv from "../img/Sumit_Kumar_Dey_Sarkar_Resume.pdf";
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
   const [showNavList, setShowNavList] = React.useState(false);
@@ -27,14 +27,14 @@ export const Navbar = () => {
         >
           <li className="nav__list-item">
             <a
-              href="#home"
+              href="#"
               onClick={() => toggleNavList("#home")}
               className="link link--nav"
             >
               Home
             </a>
           </li>
-          <li className="nav__list-item">
+          {/* <li className="nav__list-item">
             <a
               href="#about"
               onClick={() => toggleNavList("#about")}
@@ -42,7 +42,7 @@ export const Navbar = () => {
             >
               About
             </a>
-          </li>
+          </li> */}
           <li className="nav__list-item">
             <a
               href="#skills"

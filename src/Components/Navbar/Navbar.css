@@ -11,6 +11,10 @@
 .nav__theme {
   margin-top: 0.4em;
 }
+/* .center nav{
+  position: sticky;
+  border: 1px solid;
+} */
 
 @media (max-width: 600px) {
   .nav__list {

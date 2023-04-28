@@ -7,11 +7,13 @@ export const Header = () => {
       <header className="header center">
         <h3>
           <a href="#home" className="link">
-            SumitKumarDeySarkar.
+            SumitKDSarkar.
           </a>
         </h3>
+        
         <Navbar />
       </header>
+      
     </>
   );
 };

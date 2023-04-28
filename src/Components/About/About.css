@@ -31,6 +31,14 @@
   margin-right: 1em;
   
 }
+.btn_cv{
+  border: 1px solid ;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+}
+.btn_cv:hover{
+  font-size:large;
+}
 
 @media (max-width: 600px) {
   .app .about {
